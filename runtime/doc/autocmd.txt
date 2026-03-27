@@ -1153,7 +1153,10 @@ Syntax				When the 'syntax' option has been set.  The
 
 							*TabClosed*
 TabClosed			After closing a tab page. <afile> expands to
-				the tab page number.
+				the tab page number. The |event-data| is a table
+				with the following fields:
+
+				- tabpage: |tabpageid| of the closed tab page
 
 							*TabClosedPre*
 TabClosedPre			Before closing a tab page.  The window layout

@@ -114,6 +114,7 @@ API
   shape when an unfocused float is on top of the cursor.
 • |nvim_echo()| distinguishes zero percent from omitted percent for Progress
   events.
+• |TabClosed| passes tab page id in |event-data|
 
 BUILD
 
